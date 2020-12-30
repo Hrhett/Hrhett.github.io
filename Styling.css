@@ -60,7 +60,6 @@
 
 /* Page content */
 .main {
-	padding-top:25px;
 	margin-top: 120px; /* Size of sticky container at top */
 	margin-left: 250px; /* Same as the width of the sidebar */
 }
@@ -68,6 +67,7 @@
 /* About container */
 .listcontainer {
 	margin-right: 500px;
+	padding-top:25px;
 }
 
 /* List item */
