@@ -1,0 +1,129 @@
+/* Colors:
+- #111 or Sheer Black
+- #1A1A1D or Dark Grey
+- #4E4E50 or Grey
+- #6F2232 or Dark Red
+- #950740 or Velvet
+- #C3073F or Shiny Red
+- #66FCF1 or Light Blue
+- #45A29E or Dark Blue
+*/
+
+/* The top of the page */
+.stickycontainer {
+	position: fixed;
+	width: 100%;
+	background-color: black;
+	color: red;
+	left: 0px;
+	top: 0px;
+	height: 120px;
+}
+
+/* Content for top of page */
+.stickycontent {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* The sidebar */
+.sidebar {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 250px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #1A1A1D;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  margin-top: 120px; /* Size of sticky container at top */
+}
+
+/* Sidebar items */
+.sidebar a {
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #950740;
+}
+
+/* Page content */
+.main {
+	padding-top:25px;
+	margin-top: 120px; /* Size of sticky container at top */
+	margin-left: 250px; /* Same as the width of the sidebar */
+}
+
+/* About container */
+.listcontainer {
+	margin-right: 500px;
+}
+
+/* List item */
+.listitem {
+	background: #1A1A1D;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 0px;
+	text-indent: 25px;
+	text-align: left;
+	height: 175px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 25px;
+	margin-bottom: 25px;
+}
+
+/* List item hover effect */
+.listitem:hover {
+	border-style: dashed;
+	border-color: #66FCF1;
+}
+
+/* Container for about section*/
+.aboutcontainer {
+	text-align: center;
+	margin-left: 350px;
+	margin-right: 350px;
+	margin-top: 150px;
+}
+
+/* Styling for body */
+body {
+	background: #4E4E50;
+}
+
+/* Header 1 */
+h1 {
+	font-size: 85px;
+	color: red;
+	font-family: 'Lobster';
+	text-shadow: 3px 3px #950740;
+}
+
+/* Header 2*/
+h2 {
+	font-size: 75px;
+	color: #66FCF1;
+	font-family: 'Concert One';
+	text-shadow: 3px 3px #45A29E;
+}
+
+/* Paragraph */
+p {
+	color: white;
+	font-size: 20px;
+}
