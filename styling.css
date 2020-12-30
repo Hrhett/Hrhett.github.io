@@ -21,12 +21,18 @@
 }
 
 /* Content for top of page */
-.stickycontent {
+.stickytext {
 	margin: 0;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+/* Social media presence for top of page */
+.stickymedia {
+	margin-left: 1300px;
+	margin-top: 30px;
 }
 
 /* The sidebar */
@@ -96,6 +102,12 @@
 	border-color: #66FCF1;
 }
 
+/* List item on focus */
+.listitem:focus {
+	border-style: solid;
+	border-color: #66FCF1;
+}
+
 /* Container for about section*/
 .aboutcontainer {
 	text-align: center;
@@ -137,4 +149,20 @@ h2 {
 p {
 	color: white;
 	font-size: 20px;
+}
+
+/* Links */
+a {
+	text-decoration: none;
+}
+
+/* Hovering link */
+a:hover {
+	text-decoration-line: underline;
+	text-decoration-color: #66FCF1;
+}
+
+/* Button on focus */
+button:focus {
+	outline: 0;
 }

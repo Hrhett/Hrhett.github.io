@@ -26,6 +26,10 @@ function getText(id) {
 			return "Bad Ass Santa";
 			break;
 		
+		case "Leap Theory":
+			return "Leap Theory";
+			break;
+		
 		case "FIG":
 			return "FIG";
 			break;
