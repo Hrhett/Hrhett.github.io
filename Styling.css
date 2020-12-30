@@ -85,6 +85,9 @@
 	flex-direction: column;
 	margin-left: 25px;
 	margin-bottom: 25px;
+	cursor: pointer;
+	border: none;
+	width: 750px;
 }
 
 /* List item hover effect */
@@ -99,6 +102,14 @@
 	margin-left: 350px;
 	margin-right: 350px;
 	margin-top: 150px;
+}
+
+/* Text for explaining items such as games and mods */
+.sidetext {
+	margin-left: 1050px;
+	margin-right: 50px;
+	top: 125px;
+	position: fixed;
 }
 
 /* Styling for body */
