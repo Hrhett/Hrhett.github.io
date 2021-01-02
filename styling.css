@@ -110,7 +110,6 @@
 
 /* Container for about section*/
 .aboutcontainer {
-	text-align: center;
 	margin-left: 350px;
 	margin-right: 350px;
 	margin-top: 150px;
@@ -145,21 +144,22 @@ h2 {
 	text-shadow: 3px 3px #45A29E;
 }
 
+/* Highlighted header 2 */
+h2:hover {
+	text-decoration-line: underline;
+	text-decoration-color: #66FCF1;
+}
+
 /* Paragraph */
 p {
 	color: white;
 	font-size: 20px;
+	text-align: center;
 }
 
 /* Links */
 a {
 	text-decoration: none;
-}
-
-/* Hovering link */
-a:hover {
-	text-decoration-line: underline;
-	text-decoration-color: #66FCF1;
 }
 
 /* Button on focus */
