@@ -10,7 +10,7 @@
 */
 
 /* The top of the page */
-.stickycontainer {
+.sticky-container {
 	position: fixed;
 	width: 100%;
 	background-color: black;
@@ -21,7 +21,7 @@
 }
 
 /* Content for top of page */
-.stickytext {
+#sticky-header {
 	margin: 0;
 	position: absolute;
 	top: 50%;
@@ -30,13 +30,13 @@
 }
 
 /* Social media presence for top of page */
-.stickymedia {
+.sticky-media {
 	margin-left: 1300px;
 	margin-top: 30px;
 }
 
 /* The sidebar */
-.sidebar {
+.side-bar {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 250px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
@@ -50,7 +50,7 @@
 }
 
 /* Sidebar items */
-.sidebar a {
+.side-bar a {
   text-decoration: none;
   font-size: 50px;
   color: white;
@@ -60,7 +60,7 @@
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidebar a:hover {
+.side-bar a:hover {
   color: #950740;
 }
 
@@ -71,13 +71,13 @@
 }
 
 /* About container */
-.listcontainer {
+.list-container {
 	margin-right: 500px;
 	padding-top:25px;
 }
 
 /* List item */
-.listitem {
+.list-item {
 	background: #1A1A1D;
 	background-size: 100%;
 	background-position: center;
@@ -97,26 +97,26 @@
 }
 
 /* List item hover effect */
-.listitem:hover {
+.list-item:hover {
 	border-style: dashed;
 	border-color: #66FCF1;
 }
 
 /* List item on focus */
-.listitem:focus {
+.list-item:focus {
 	border-style: solid;
 	border-color: #66FCF1;
 }
 
 /* Container for about section*/
-.aboutcontainer {
+#about-container {
 	margin-left: 350px;
 	margin-right: 350px;
 	margin-top: 150px;
 }
 
 /* Text for explaining items such as games and mods */
-.sidetext {
+#side-text {
 	margin-left: 1050px;
 	margin-right: 50px;
 	top: 125px;

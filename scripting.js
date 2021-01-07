@@ -1,5 +1,5 @@
 function exposeText(id) {
-	var text = document.getElementById("description");
+	var text = document.getElementById("side-text");
 	text.innerHTML = getText(id);
 }
 
