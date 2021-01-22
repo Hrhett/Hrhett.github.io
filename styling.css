@@ -217,13 +217,6 @@ h2 {
 	text-shadow: 3px 3px #45A29E;
 }
 
-/* Highlighted header 2 */
-h2:hover {
-	/* Visuals */
-	text-decoration-line: underline;
-	text-decoration-color: #66FCF1;
-}
-
 /* Paragraph */
 p {
 	/* Visuals */
@@ -236,6 +229,13 @@ p {
 a {
 	/* Visuals */
 	text-decoration: none;
+}
+
+/* Links hovering */
+a:hover {
+	/* Visuals */
+	text-decoration-line: underline;
+	text-decoration-color: #66FCF1;
 }
 
 /* Button on focus */
