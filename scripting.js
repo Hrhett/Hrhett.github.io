@@ -1,6 +1,6 @@
 // Exposes the text and asks for id
 function exposeText(id) {
-	var text = document.getElementById("side-text");
+	var text = document.getElementById("description");
 	text.innerHTML = getText(id);
 }
 
