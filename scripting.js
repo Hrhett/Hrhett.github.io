@@ -1,10 +1,22 @@
+// Exposes the text and asks for id
 function exposeText(id) {
 	var text = document.getElementById("side-text");
 	text.innerHTML = getText(id);
 }
 
+// Gets the text for corresponding id, I need to change this to work with json.
 function getText(id) {
 	switch(id) {
+		case "Tentatron":
+			return "Tentatron<br>"
+				+ "2021<br><br>"
+				+ "description";
+
+		case "Quote Bot":
+			return "Quote Bot<br>"
+				+ "2020<br><br>"
+				+ "description";
+
 		case "Distrakt":
 			return "TigerDev<br>"
 				+ "2020<br><br>"
