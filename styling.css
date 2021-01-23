@@ -157,7 +157,7 @@
 /* Text for explaining items such as games and mods */
 .side-text {
 	/* Position */
-	position: absolute;
+	position: fixed;
 
 	/* Margin */
 	margin-left: 47.5%;
@@ -208,13 +208,20 @@ h1 {
 	text-shadow: 3px 3px #950740;
 }
 
-/* Header 2*/
+/* Header 2 */
 h2 {
 	/* Visuals */
 	font-size: 75px;
 	color: #66FCF1;
 	font-family: 'Concert One';
 	text-shadow: 3px 3px #45A29E;
+}
+
+/* Header 2 link hover */
+a:hover h2 {
+	/* Visuals */
+	text-decoration-line: underline;
+	text-decoration-color: #66FCF1;
 }
 
 /* Paragraph */
@@ -229,13 +236,6 @@ p {
 a {
 	/* Visuals */
 	text-decoration: none;
-}
-
-/* Links hovering */
-a:hover {
-	/* Visuals */
-	text-decoration-line: underline;
-	text-decoration-color: #66FCF1;
 }
 
 /* Button on focus */
