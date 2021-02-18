@@ -11,16 +11,15 @@ function getText(id) {
 			return "Harper Rhett & Jeremy Rhett<br>"
 				+ "2021<br><br>"
 				+ "I was starting to feel withdraw from C# mid-way through Winter break, so I decided to participate in a game jam. "
-				+ "It was fun but I made the major mistake of winging everything, and it is by far the creation I am least proud of... "
-				+ "I should have gone in with a team and a game plan. "
-				+ "Oh well.";
+				+ "It was fun but I made the major mistake of winging everything, and so it didn't turn out too well, but it was a cool concept. ";
 
 		case "Quote Bot":
 			return "Harper Rhett<br>"
 				+ "2020<br><br>"
 				+ "Over Winter break I wanted to learn some Python, and I figured a cool way to do that would be to create a Reddit bot. "
-				+ "Naturally, I created a bot that finished quotes from famous pop culture. "
-				+ "The bot is no longer in service.";
+				+ "Naturally, I created a bot that replied to unfinished quotes from famous pop culture. "
+				+ "Also naturally, it broke when I booted it up a few weeks later, and proceeded to sweep it under the rug. "
+				+ "RIP.";
 
 		case "Distrakt":
 			return "TigerDev<br>"
@@ -29,8 +28,7 @@ function getText(id) {
 				+ "The idea, formulated by my buddy Holden and I, was to create a game where the player was constantly distracted. "
 				+ "We thought that if we took some puzzle game mechanics, and some FPS mechanics, and slapped them together, that would do just the trick. "
 				+ "We recruited two others from the club, and proceeded to start work on this 3D masterpiece. "
-				+ "By the end of the semester, we were burnt out already, and the game didn't even have a first level. "
-				+ "Nevertheless, it was a cool tech demo that showed off some cool technologies such as gravity manipulation, so we dropped the project and went on our merry way.";
+				+ "Apparently the coolest project ever was too cool, and we had to abandon it due to scope...";
 			break;
 		
 		case "Factorama":
@@ -77,7 +75,10 @@ function getText(id) {
 		case "Slimer":
 			return "Harper Rhett<br>"
 				+ "2019<br><br>"
-				+ "description";
+				+ "This was my first game ever. "
+				+ "After a few weeks of taking various tutorials on Game Maker Studio 2, I decided to finally make my first game from scratch. "
+				+ "The game featured a little sword wielding slime that fought off other slimes. "
+				+ "It ain't much, but it's honest work.";
 			break;
 			
 		case "Finally Sprinting":
