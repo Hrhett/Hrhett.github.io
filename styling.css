@@ -51,10 +51,6 @@
 	/* Position */
 	float: right;
 	transform: translate(-35px, 3vh);
-
-	/* Margin 
-	margin-right: 3vw;
-	margin-top: 3.5vh;*/
 }
 
 /* The sidebar */
@@ -76,7 +72,7 @@
 .side-bar a {
 	/* Visuals */
 	text-decoration: none;
-	font-size: 50px;
+	font-size: 3.5vw;
 	color: white;
 	display: block;
 	text-align: center;
@@ -202,7 +198,7 @@ body {
 /* Header 1 */
 h1 {
 	/* Visuals */
-	font-size: 85px;
+	font-size: 5vw;
 	color: red;
 	font-family: 'Lobster';
 	text-shadow: 3px 3px #950740;
