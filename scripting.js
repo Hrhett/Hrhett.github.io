@@ -71,7 +71,7 @@ function getText(id) {
 		case "Little Nightmare":
 			return "Harper Rhett & Stranger Who's Name I Forgot"
 				+ "2019<br><br>"
-				+ "This. Game. Was. Awesome. "
+				+ "This game was awesome. "
 				+ "It was my first game jam, and I worked with a pixel artist from who knows where, but I think it's the project that actually made me doubt becoming a mechanical engineer. "
 				+ "Working with someone else in a competition, on a time period, was just so exhilirating it reminded me of my robotics competitions, and it really turned me onto the full game dev experience.";
 			
