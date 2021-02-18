@@ -43,23 +43,30 @@ function getText(id) {
 		case "VOLAXIA":
 			return "Harper Rhett & Giuliano De Pian<br>"
 				+ "2020<br><br>"
-				+ "description";
+				+ "This game is so cool! "
+				+ "It's like Galaga but you fling yourself at the bad guys in slow motion! "
+				+ "It even has epic music by my composer friend from Argentina!";
 		
 		case "FIG":
 			return "Harper Rhett<br>"
 				+ "2020<br><br>"
-				+ "Don't turn a school project into a game. "
+				+ "Don't turn a school project into a game, especially if your school project is due in two days. "
 				+ "Seriously, what was I thinking?";
 
 		case "Bad Ass Santa":
 			return "Harper Rhett, Giuliano De Pian, and Carlita<br>"
 				+ "2019<br><br>"
-				+ "description";
+				+ "This was the best game jam I've ever done. "
+				+ "I created an entry with two really cool people from across the world. "
+				+ "They were fantastic to work with, and I had a fantastic time. "
+				+ "Go play it.";
 		
 		case "Leap Theory":
 			return "Harper Rhett & Jeremy Rhett"
 				+ "2019<br><br>"
-				+ "description";
+				+ "I made this game with my dad. "
+				+ "I was finally starting to get a handle on game developement, so I worked on a long game jam. "
+				+ "It didn't turn out the best because I ran out of time, but it definitely was a monument for my progress.";
 		
 		case "Little Nightmare":
 			return "Harper Rhett & Stranger Who's Name I Forgot"
