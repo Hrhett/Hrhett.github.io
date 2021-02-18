@@ -29,7 +29,6 @@ function getText(id) {
 				+ "We thought that if we took some puzzle game mechanics, and some FPS mechanics, and slapped them together, that would do just the trick. "
 				+ "We recruited two others from the club, and proceeded to start work on this 3D masterpiece. "
 				+ "Apparently the coolest project ever was too cool, and we had to abandon it due to scope...";
-			break;
 		
 		case "Factorama":
 			return "Voltaic Studios<br>"
@@ -40,37 +39,34 @@ function getText(id) {
 				+ "I even hired up Giuliano De Pian, someone I had worked with before, to do the music. "
 				+ "Several months in, and I was able to release it to the Android Play Store. "
 				+ "I made about negative eighty bucks.";
-			break;
 		
 		case "VOLAXIA":
 			return "Harper Rhett & Giuliano De Pian<br>"
 				+ "2020<br><br>"
 				+ "description";
-			break;
 		
+		case "FIG":
+			return "Harper Rhett<br>"
+				+ "2020<br><br>"
+				+ "Don't turn a school project into a game. "
+				+ "Seriously, what was I thinking?";
+
 		case "Bad Ass Santa":
 			return "Harper Rhett, Giuliano De Pian, and Carlita<br>"
 				+ "2019<br><br>"
 				+ "description";
-			break;
 		
 		case "Leap Theory":
 			return "Harper Rhett & Jeremy Rhett"
 				+ "2019<br><br>"
 				+ "description";
-			break;
-		
-		case "FIG":
-			return "Harper Rhett<br>"
-				+ "2020<br><br>"
-				+ "description";
-			break;
 		
 		case "Little Nightmare":
 			return "Harper Rhett & Stranger Who's Name I Forgot"
 				+ "2019<br><br>"
-				+ "description";
-			break;
+				+ "This. Game. Was. Awesome. "
+				+ "It was my first game jam, and I worked with a pixel artist from who knows where, but I think it's the project that actually made me doubt becoming a mechanical engineer. "
+				+ "Working with someone else in a competition, on a time period, was just so exhilirating it reminded me of my robotics competitions, and it really turned me onto the full game dev experience.";
 			
 		case "Slimer":
 			return "Harper Rhett<br>"
@@ -79,30 +75,28 @@ function getText(id) {
 				+ "After a few weeks of taking various tutorials on Game Maker Studio 2, I decided to finally make my first game from scratch. "
 				+ "The game featured a little sword wielding slime that fought off other slimes. "
 				+ "It ain't much, but it's honest work.";
-			break;
 			
 		case "Finally Sprinting":
 			return "Harper Rhett<br>"
 				+ "2020<br><br>"
-				+ "description";
-			break;
+				+ "I added sprinting to Teardown the game! "
+				+ "It only took an afternoon, but I was really proud of this as it was my first mod where I actually programmed and didn't just mess with config files.";
 		
 		case "Vanilla++":
 			return "Harper Rhett<br>"
 				+ "2018<br><br>"
-				+ "description";
-			break;
+				+ "Simple Rockets is simply a great mobile game. "
+				+ "Simple Rockets 2 is better, but it wasn't out when I made this mode. "
+				+ "All the mod did was expand upon the content in the game, adding a few things here and there, but it was another developer experience under my belt.";
 		
 		case "MCPE Ramps":
 			return "Harper Rhett<br>"
 			+ "2016<br><br>"
-			+ "During my freshman year of high school, I was pretty into Minecraft, and decided I wanted to make a mod."
-			+ "I targeted Minecraft Pocket Edition because the developers were coming out with a new addon system I wanted to try out."
-			+ "All I had to do was mess with some config files, but it was my first real developer experience.";
-			break;
+			+ "During my freshman year of high school, I was pretty into Minecraft Pocket Edition, and decided I wanted to make a mod. "
+			+ "Within a few hours of fiddling with some XML or JSON files (I can't remember) I was done, and soonafter published my first developer project to the internet. "
+			+ "The mod actually blew up a little, and was reviewed by a few small YouTubers. ";
 		
 		default:
 			return "Empty";
-			break;
 	}
 }
