@@ -99,11 +99,8 @@
 
 /* About container */
 .list-container {
-	/* Position */
-	position: absolute;
-	
 	/* Margin */
-	margin-right: 40%;
+	margin-right: 45%;
 
 	/* Padding */
 	padding: 15px;
@@ -154,6 +151,7 @@
 .side-text {
 	/* Position */
 	position: fixed;
+	top: 12.5vh;
 
 	/* Margin */
 	margin-left: 47.5%;
