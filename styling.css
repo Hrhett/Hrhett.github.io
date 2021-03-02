@@ -177,6 +177,19 @@
 	width: 100%;
 }
 
+/* Profile picture */
+#profile {
+	/* Visuals */
+	display: block;
+
+	/* Size */
+	width: 40%;
+
+	/* Margin */
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* Styling for body */
 body {
 	/* Visuals */
