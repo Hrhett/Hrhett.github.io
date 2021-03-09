@@ -217,10 +217,18 @@ body {
 /* Header 1 */
 h1 {
 	/* Visuals */
-	font-size: 60px;
+	font-size: 75px;
 	color: red;
 	font-family: 'Lobster';
 	text-shadow: 3px 3px #950740;
+}
+
+@media (max-width: 1000px) {
+	/* Header 1 */
+	h1 {
+		/* Visuals */
+		font-size: 80px;
+	}
 }
 
 /* Header 2 */
