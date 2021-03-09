@@ -53,6 +53,14 @@
 	transform: translate(-35px, 3vh);
 }
 
+@media (max-width: 1000px) {
+	/* Social media presence for top of page */
+	.sticky-media {
+		/* Visuals */
+		display: none;
+	}
+}
+
 /* The sidebar */
 .side-bar {
 	/* Visuals */
@@ -209,7 +217,7 @@ body {
 /* Header 1 */
 h1 {
 	/* Visuals */
-	font-size: 5vw;
+	font-size: calc(25px + 2.5vw);
 	color: red;
 	font-family: 'Lobster';
 	text-shadow: 3px 3px #950740;
@@ -218,7 +226,7 @@ h1 {
 /* Header 2 */
 h2 {
 	/* Visuals */
-	font-size: 5vw;
+	font-size: calc(5px + 5vw);
 	color: #66FCF1;
 	font-family: 'Concert One';
 	text-shadow: 3px 3px #45A29E;
