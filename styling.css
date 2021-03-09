@@ -217,7 +217,7 @@ body {
 /* Header 1 */
 h1 {
 	/* Visuals */
-	font-size: calc(25px + 2.5vw);
+	font-size: 60px;
 	color: red;
 	font-family: 'Lobster';
 	text-shadow: 3px 3px #950740;
